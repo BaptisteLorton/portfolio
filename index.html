@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Baptiste LORTON</title>
+    <link href="https://fonts.cdnfonts.com/css/rubik-2" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Group%201.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Baptiste LORTON</h1>
+    <h3 id="etudiant">Etudiant en informatique</h3>
+
+    <div class="parallax rond">
+        <div class="infos" id="age">20 ans</div>
+        <div class="infos" id="age-click" style="display: none">Né à Chalon sur Saône le 19/09/2003</div>
+        <div class="infos" id="but">BUT Informatique</div>
+        <div class="infos" id="but-click" style="display: none">Formation en 3 ans sur le développement informatique</div>
+        <div class="infos" id="iut">IUT Nord Franche-Comté</div>
+        <div class="infos" id="iut-click" style="display: none">Situé à Belfort</div>
+    </div>
+
+    <div class="transition">
+        <h2>Projets</h2>
+        <p class="texte-presentation">Dans cette section, découvrez mes projets de développement informatique réalisés à l'<b>IUT de Nord Franche-Comté en BUT Informatique</b> à Belfort. Du développement web aux applications mobiles, en passant par la conception de bases de données, ces projets illustrent les <b>compétences techniques et pratiques</b> que j'ai acquises au cours de ma formation.</p>
+    </div>
+
+    <div class="parallax">
+        <div class="projet" id="arvolution">
+            <div class="titre-projet">
+                <h3>ARvolution</h3>
+                <div class="en-savoir-plus" id="gauche">
+                    <a class="afficher-plus" id="afficher-plus-gauche">Afficher plus</a>
+                    <img class="fleche" id="fleche-gauche" src="img/fleche.png" alt="en savoir plus">
+                </div>
+            </div>
+            <p id="arvolution-presentation"><b>Présentation :</b><br><br>Dans ce projet nous devions créer un site web pour la gestion d'un salon de réalité virtuelle, nous avons donc appris à <b>développer une application complète à partir d'exigences</b> dans le cadre d'un projet de groupe de 4 personnes.</p>
+            <div id="arvolution-details">
+                <div class="details">
+                    <h4>Système de notation</h4>
+                    <p>J'ai par exemple dû <b>développer une interface utilisateur</b> ainsi qu'<b>appliquer des principes d'accessibilité et d'ergonomie</b> sur la notation de produits qui étaient proposés à la vente. Ainsi, vous pouviez ajouter une note via un système d'étoiles, voir la moyenne ainsi que la répartition des notes.</p>
+                    <a href="img/notes.png" target="_blank">
+                        <img class="img-arvolution" src="img/notes.png" alt="repartition des notes">
+                    </a>
+                </div>
+                <div class="details">
+                    <h4>Envoi de mail de confirmation</h4>
+                    <p>J'ai également mis en place un système d'envoi de mail de confirmation de commande. J'ai intégré un QR code contenant toutes les informations nécessaires. Cela m'a permis de comprendre comment <b>concevoir et implémenter certaines fonctionnalités</b>.</p>
+                    <a href="img/qrcode.png" target="_blank">
+                        <img class="img-arvolution" src="img/qrcode.png" alt="génération d'un qrcode">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="projet" id="brandub">
+            <div class="titre-projet">
+                <div class="en-savoir-plus" id="droite">
+                    <img class="fleche" id="fleche-droite" src="img/fleche.png" alt="en savoir plus">
+                    <a class="afficher-plus" id="afficher-plus-droite">Afficher plus</a>
+                </div>
+                <h3>Brandub</h3>
+            </div>
+            <p id="brandub-presentation"><b>Présentation :</b><br><br>Ce projet consistait à développer un jeu de plateau nommé <a href="http://www.cyningstan.com/game/125/brandub">"Brandub"</a>. Nous devions donc développer les règles ainsi que des IA capables de jouer. Ce projet nous a donc appris à <b>construire des algorithmes</b>.</p>
+            <div id="brandub-details">
+                <div class="details">
+                    <h4>Algorithme de défense</h4>
+                    <p>J'ai donc dû <b>concevoir et implémenter un algorithme</b> qui permet de défendre. Cet algorithme fonctionne par ordre de priorité. J'ai donc notamment <b>mis en oeuvre des outils mathématiques</b> afin de me rapprocher de l'objectif ou pour faire déplacer mes défenseurs vers le Branan (sorte de roi).</p>
+                    <a href="img/calculdistance.png" target="_blank">
+                        <img class="img-brandub" src="img/calculdistance.png" alt="calcul de distance">
+                    </a>
+                </div>
+                <div class="details">
+                    <h4>Tests unitaires</h4>
+                    <p>Afin de <b>vérifier et valider la qualité de mon application</b>, j'ai dû réaliser des tests unitaires sur les différentes fonctions qui composent mon IA de défense.</p>
+                    <a href="img/testdefense.png" target="_blank">
+                        <img class="img-brandub" src="img/testdefense.png" alt="calcul de distance">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="transition">
+        <h2>Stage</h2>
+        <p class="texte-presentation">Dans cette section je vous présente mon sujet de stage au sein de <b>Forvia</b> à Seloncourt qui consistait à <b>concevoir et à développer un boîtier</b> équipé de boutons, d'un écran et de LEDs, destiné à la gestion de la qualité sur une chaîne de production. Le boîtier devait permettre aux opérateurs de déclarer facilement et rapidement les pièces non conformes.</p>
+        <p class="texte-presentation">En plus de ses fonctionnalités de base, le boîtier pouvait être paramétré et personnalisé via une interface web dédiée, permettant ainsi une grande <b>flexibilité d'utilisation et une adaptation aux besoins spécifiques</b> de chaque chaîne de production ou usine.</p>
+    </div>
+
+    <div class="parallax">
+        <div class="projet" id="page-configuration">
+            <div class="titre-projet">
+                <h3>Configuration</h3>
+                <div class="en-savoir-plus" id="gauche-stage">
+                    <a class="afficher-plus" id="afficher-plus-gauche-stage">Afficher plus</a>
+                    <img class="fleche" id="fleche-gauche-stage" src="img/fleche.png" alt="en savoir plus">
+                </div>
+            </div>
+            <p id="page-configuration-presentation">Cette partie concerne donc la page de paramétrage de mon boîtier. L'idée est ici d'avoir une <b>interface simple et ergonomique tout en étant la plus complète possible</b>. <br><br> J'ai donc fait le choix d'afficher les différents boutons du boîtier et qu'au click, nous puissions les paramétrer (état , couleur, fonctions, etc...)</p>
+            <div id="page-configuration-details">
+                <div class="details">
+                    <h4>Esthétique</h4>
+                    <p>En ce qui concerne l'esthétique de ma page, j'ai pu <b>appliquer les compétences acquises</b> afin d'obtenir une <b>interface ergonomique et accessible</b>. L'objectif est de permettre à l'opérateur de faire les modifications nécessaires le plus simplement possible. </p>
+                    <a href="img/page-configuration.png" target="_blank">
+                        <img class="img-page-configuration" src="img/page-configuration.png" alt="repartition des notes">
+                    </a>
+                </div>
+                <div class="details">
+                    <h4>Etat des boutons</h4>
+                    <p>Une des fonctionnalités implémentée consiste a activer ou désactiver les boutons. Cette <b>simple conception</b> permet de rendre un bouton inutilisable. Il affiche donc une pastille rouge, rend son paramétrage impossible et enregistre dans le fichier de configuration qu'il est désactivé.</p>
+                    <a href="img/state-button.png" target="_blank">
+                        <img class="img-page-configuration" src="img/state-button.png" alt="génération d'un qrcode">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="stage" id="verif">
+                <div class="titre-projet">
+                    <h3>Vérification et traitements d'erreurs</h3>
+                    <div class="en-savoir-plus" id="haut-stage">
+                        <a class="afficher-plus" id="afficher-plus-haut-stage">Afficher plus</a>
+                        <img class="fleche" id="fleche-haut-stage" src="img/fleche.png" alt="en savoir plus">
+                    </div>
+                </div>
+                <div>
+                    <p>Dans ce projet j'ai également pu <b>appliquer les bonnes pratiques de conception et de programmation</b>. En effet, j'ai pu mettre en place de nombreuses vérifications ainsi que des traitements d'erreurs pour éviter tout crash potentiel de mon application.</p>
+                    <a href="img/checknbbuttons.png" target="_blank">
+                        <img class="img-verif" id="img-verif" src="img/checknbbuttons.png" alt="vérification du nombre de boutons">
+                    </a>
+                    <p id="ex-1" style="display: none">Dans cet exemple, je vérifie si chacun des boutons est bien initialisé avec certaines données. Le nombre de boutons peut varier alors certains pourraient ne pas être initialisés ou au contraire, trop de boutons pourraient être initialisés.</p>
+                </div>
+            </div>
+            <div class="stage" id="led">
+                <div class="titre-projet">
+                    <h3>Gestion des affichages</h3>
+                    <div class="en-savoir-plus" id="bas-stage">
+                        <a class="afficher-plus" id="afficher-plus-bas-stage">Afficher plus</a>
+                        <img class="fleche" id="fleche-bas-stage" src="img/fleche.png" alt="en savoir plus">
+                    </div>
+                </div>
+                <div>
+                    <p>Une autre partie de ce projet consistait donc à récupérer le retour de l'API et d'afficher, en fonction de celui là, un message sur un écran LCD. Je devais également allumer une LED rgb grâce à un code couleur <b>défini selon les besoins de l'utilisateur.</b></p>
+                    <p></p>
+                    <div class="led-images">
+                        <a href="img/led1.png" target="_blank">
+                            <img class="img-led" id="img-led1" src="img/led1.png" alt="Affichage de led">
+                        </a>
+                        <a href="img/led2.png" target="_blank">
+                            <img class="img-led" id="img-led2" src="img/led2.png" alt="Affichage de led">
+                        </a>
+                    </div>
+                    <p id="ex-2" style="display: none">Je devais donc réinitialisé tous les affichages actuels (LED, affichage de l'écran), afficher le nouveau message et changer la couleur de la LED. J'en profitais également pour ajouter dans un fichier de log, les différents événements survenus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="autre">
+        <a href="https://www.linkedin.com/in/baptistelorton/">LinkedIn</a>
+        <a href="mailto:baptiste.lorton@gmail.com">baptiste.lorton@gmail.com</a>
+        <a href="https://github.com/BaptisteLorton">GitHub</a>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

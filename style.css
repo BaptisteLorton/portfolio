@@ -1,0 +1,301 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin: 2em;
+    color: #2E0FAA;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    margin: 2em;
+    color: #2E0FAA;
+}
+
+.parallax h3{
+    text-align: start;
+}
+
+h4{
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    color: #2E0FAA;
+}
+
+#etudiant{
+    color: #BB289D;
+}
+
+a{
+    color: #2E0FAA;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BB289D;
+}
+
+.parallax{
+    background-image: url('img/parallax3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.rond{
+    height: 35em;
+    color: #2E0FAA;
+    font-weight: bold;
+}
+
+.transition{
+    margin: 5em 0;
+}
+
+.texte-presentation{
+    margin: 1em 20em;
+}
+
+.infos{
+    width: 8em;
+    height: 8em;
+    background-color: white;
+    border-radius: 5em;
+    margin: 0 4em;
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    align-content: center;
+}
+
+.infos:hover{
+    color: #BB289D;
+    cursor: pointer;
+}
+
+.projet{
+    display: block;
+    width: 35em;
+    height: 45em;
+    background-color: white;
+    margin: 0 4em;
+    text-align: -webkit-center;
+    border-radius: 1em;
+}
+
+.projet p{
+    margin: 1em 2em;
+    text-align: justify;
+}
+
+.img-arvolution{
+    width: 75%;
+    display: none;
+}
+
+.img-brandub{
+    width: 85%;
+    display: none;
+}
+
+.titre-projet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fleche{
+    width: 3em;
+    height: 3em;
+}
+
+#fleche-droite{
+    transform: rotate(180deg);
+    margin-left: 2em;
+}
+
+#fleche-gauche{
+    margin-right: 2em;
+}
+
+.afficher-plus{
+    align-content: center;
+    text-align: end;
+}
+
+.en-savoir-plus{
+    display: flex;
+}
+
+.en-savoir-plus:hover{
+    cursor: pointer;
+}
+
+#arvolution-details p{
+    margin-bottom: 2em;
+}
+
+#arvolution-presentation{
+    margin-bottom: 3em;
+}
+
+#brandub-details p{
+    margin-bottom: 2em;
+}
+
+#brandub-presentation{
+    margin-bottom: 3em;
+}
+
+.stage{
+    width: 35em;
+    height: 21em;
+    background-color: white;
+    margin: 3em 4em;
+    align-content: start;
+    border-radius: 1em;
+}
+
+.stage p{
+    margin: 1em 2em;
+    text-align: justify;
+}
+
+.img-page-configuration{
+    width: 75%;
+    display: none;
+}
+
+.img-verif{
+    width: 80%;
+    display: none;
+    margin: 3em auto;
+}
+
+#fleche-gauche-stage{
+    margin-right: 2em;
+}
+
+#fleche-bas-stage{
+    transform: rotate(-90deg);
+    margin-right: 2em;
+}
+
+#fleche-haut-stage{
+    transform: rotate(90deg);
+    margin-right: 2em;
+}
+
+.led-images{
+    display: flex;
+    margin: 2em 0;
+    align-items: center;
+}
+
+.img-led{
+    width: 85%;
+    display: none;
+    margin: 0 auto;
+}
+
+.autre{
+    display: flex;
+    justify-content: center;
+}
+
+.autre a {
+    margin: 5em 5em;
+}
+
+@media screen and (max-width: 1300px){
+    .infos{
+        margin: 0 1em;
+    }
+
+    .texte-presentation{
+        margin: 1em 1em;
+    }
+
+    .projet{
+        margin: 1em;
+        width: 25em;
+    }
+
+    .stage{
+        margin: 1em 2em;
+        width: 25em;
+
+    }
+}
+
+@media screen and (max-width: 900px){
+    .parallax{
+        display: block;
+        height: 93em;
+        align-content: center;
+    }
+
+    .rond{
+        height: 40em;
+        align-content: center;
+    }
+
+    .infos{
+        width: 6em;
+        height: 6em;
+        background-color: white;
+        font-size: 1.3em;
+        margin: 1em auto;
+    }
+
+    .texte-presentation{
+        margin: 1em 1em;
+    }
+
+    .projet{
+        margin: 1em auto;
+        width: 25em;
+    }
+
+    .stage{
+        margin: 1em auto;
+        width: 25em;
+    }
+
+    .autre{
+        display: block;
+        text-align: center;
+        margin: 2em 0;
+    }
+
+    .autre a {
+        margin: 1em 1em;
+    }
+
+    .en-savoir-plus{
+        display: none;
+    }
+}
